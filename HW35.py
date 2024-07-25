@@ -43,7 +43,7 @@ class Publisher:
             video.display_info()
 
     @classmethod
-    def display_total_publishers(cls):
+    def display_total_publisher(cls):
         print(f"Total number of publishers: {cls.total_publishers}")
 
 
@@ -64,4 +64,4 @@ publisher1.add_video(video1)
 publisher1.add_video(video2)
 
 publisher1.display_info()
-Publisher.display_total_publishers()
+Publisher.display_total_publisher()
